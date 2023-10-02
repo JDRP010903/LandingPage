@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1B263B;
+}
+
+.barraNav a {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1) sepia(0) saturate(10000%) hue-rotate(0deg);
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    text-align: center;
+}
