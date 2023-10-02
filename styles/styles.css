@@ -3,12 +3,19 @@
     padding: 0;
 }
 
+
+/* COMIENZO DEL HEADER */
+
 header {
     background-color: #1B263B;
 }
 
 .barraNav a {
     color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #778DA9;
 }
 
 .navbar-toggler-icon {
@@ -22,3 +29,14 @@ header {
 .nav-item {
     text-align: center;
 }
+
+
+/* COMIENZO DEL MAIN */ 
+    
+
+@media (min-width: 992px) {
+    .barraNav a {
+        font-size: 1.2rem;
+    }
+}
+
