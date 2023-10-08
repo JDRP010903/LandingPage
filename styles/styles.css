@@ -24,22 +24,61 @@ header {
 }
 
 
+/* COMIENZO DEL MAIN */ 
+
 .contenedorJumbotron {
     text-align: center;
 }
 
-/* COMIENZO DEL MAIN */ 
-    
+.contenedorBotonInfoLarge {
+    display: none;
+}
 
-@media (min-width: 992px) {
-    .barraNav a {
-        font-size: 1.1rem;
+@media (min-width: 768px) {
+    .contenedorTextoJumbo h1 {
+        font-size: 3rem;
+    }
+
+    .contenedorTextoJumbo p {
+        font-size: 1.5rem;
     }
 }
 
+@media (min-width: 950px) {
+    .barraNav a {
+        font-size: 1.1rem;
+    }
+
+    .contenedorBotonInfoLarge {
+        display: block;
+    }
+
+    .contenedorBotonInfo {
+        display: none;
+    }
+    
+}
+
 @media (min-width: 1440px) {
+
     .barraNav a {
         font-size: 1.3rem;
+    }
+
+    .contenedorJumbotron {
+        height: auto;
+    }
+
+    .contenedorTextoJumbo h1 {
+        font-size: 4rem;
+    }
+
+    .contenedorTextoJumbo p {
+        font-size: 2rem;
+    }
+
+    .contenedorImgJumbo img {
+        width: 68%;
     }
 }
 
