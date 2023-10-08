@@ -15,28 +15,33 @@ header {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #778DA9;
+    color: #1B263B;
+    background-color: white;
 }
 
 .navbar-toggler-icon {
     filter: brightness(0) invert(1) sepia(0) saturate(10000%) hue-rotate(0deg);
 }
 
-.navbar-nav {
-    display: flex;
-    justify-content: center;
-}
-.nav-item {
+
+.contenedorJumbotron {
     text-align: center;
 }
-
 
 /* COMIENZO DEL MAIN */ 
     
 
 @media (min-width: 992px) {
     .barraNav a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
+
+@media (min-width: 1440px) {
+    .barraNav a {
+        font-size: 1.3rem;
+    }
+}
+
+
 
