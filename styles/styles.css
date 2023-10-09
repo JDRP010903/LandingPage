@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
 }
@@ -6,9 +6,6 @@
 
 /* COMIENZO DEL HEADER */
 
-header {
-    background-color: #1B263B;
-}
 
 .barraNav a {
     color: white;
@@ -34,6 +31,30 @@ header {
     display: none;
 }
 
+.carousel-item .imagenCarrusel1 {
+    width: 75%;
+}
+
+.carousel-item .imagenCarrusel2 {
+    width: 50%;
+}
+
+.carousel-item .imagenCarrusel3 {
+    width: 50%;
+}
+
+.carousel-item .imagenCarrusel4 {
+    width: 50%;
+}
+
+.carousel-item .imagenCarrusel5 {
+    width: 50%;
+}
+
+.carousel-item .imagenCarrusel6 {
+    width: 50%;
+}
+
 @media (min-width: 768px) {
     .contenedorTextoJumbo h1 {
         font-size: 3rem;
@@ -57,6 +78,36 @@ header {
         display: none;
     }
     
+}
+
+@media (min-width: 1024px) {
+    .contenedorTxt {
+        margin-left: 10px;
+    }
+
+    .carousel-item .imagenCarrusel1 {
+        width: 40%;
+    }
+    
+    .carousel-item .imagenCarrusel2 {
+        width: 30%;
+    }
+    
+    .carousel-item .imagenCarrusel3 {
+        width: 30%;
+    }
+    
+    .carousel-item .imagenCarrusel4 {
+        width: 30%;
+    }
+
+    .carousel-item .imagenCarrusel5 {
+        width: 40%;
+    }
+    
+    .carousel-item .imagenCarrusel6 {
+        width: 30%;
+    }
 }
 
 @media (min-width: 1440px) {
